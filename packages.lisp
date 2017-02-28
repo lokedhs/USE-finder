@@ -3,4 +3,5 @@
 (defpackage :use-finder
   (:use #:common-lisp)
   (:shadow #:stream
-           #:with-open-stream))
+           #:with-open-stream)
+  (:export #:use-finder))
